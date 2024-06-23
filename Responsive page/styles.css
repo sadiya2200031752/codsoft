@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+}
+
+.sticky {
+    background-color: rgba(30, 60, 114, 0.9);
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+section h1 {
+    margin-top: 80px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+}
+
+.sticky {
+    background-color: rgba(30, 60, 114, 0.9);
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#section1 {
+    background-image: url('images/image1.jpg');
+}
+
+#section2 {
+    background-image: url("images/image3.jpg");
+}
+
+#section3 {
+    background-image: url("images/image4.jpg");
+}
+
+#section4 {
+    background-image: url("images/image5.jpg");
+}
+
+section h1 {
+    margin-top: 80px;
+}
+
